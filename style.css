@@ -326,7 +326,7 @@ nav {
         display: none; /* Hide sidebar by default */
         width: 100%;
         position: sticky;
-        top: calc(5px + 1rem);
+        top: calc(60px + 3rem);
         height: fit-content;
          margin-top: 2rem;
         left: 0;
