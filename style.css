@@ -689,6 +689,7 @@ main {
 .tabs-container {
     display: flex;
     justify-content: space-between;
+    flex-wrap: wrap;
 }
 
 .tab-button {
@@ -728,6 +729,20 @@ main {
 
 .tab-content.active {
     display: block;
+}
+
+/* Mobile responsive tabs - prevent overflow on small screens */
+@media (max-width: 768px) {
+  .tabs-container {
+    flex-direction: column;
+    gap: 0.5rem;
+  }
+
+  .tab-button {
+    flex: 1 1 100%;
+    width: 100%;
+    margin: 0.25rem 0;
+  }
 }
 
 /* ── Frosted-glass toggle button ─────────────────────────────────────────── 
