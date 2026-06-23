@@ -452,7 +452,7 @@ nav {
 
 .icon-text-grid {
   display: grid;
-  grid-template-columns: minmax(70px, auto) 1fr minmax(70px, 0.5fr) 1fr;
+  grid-template-columns: minmax(60px, auto) 1fr minmax(60px, auto) 1fr;
   gap: 0.75rem 0.75rem;
   align-items: center;
 }
