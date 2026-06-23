@@ -452,7 +452,7 @@ nav {
 
 .icon-text-grid {
   display: grid;
-  grid-template-columns: minmax(70px, auto) minmax(70px, 0.5fr) auto 1fr;
+  grid-template-columns: minmax(70px, auto) auto minmax(70px, 0.5fr) auto;
   gap: 0.75rem 0.75rem;
   align-items: center;
 }
@@ -673,11 +673,6 @@ main {
   }
   .media-text-grid {
     grid-template-columns: 1fr;
-  }
-  .tab-section img {
-    width: 140%;
-    max-width: 140%;
-    height: auto;
   }
 }
 
